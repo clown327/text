@@ -1,4 +1,4 @@
-//민원을 누르면 나오는 페이지 stack
+//민원을 관리할 수 있는 화면 입니다 stack
 import {Text, View} from 'react-native'
 
 export default managing = () => {

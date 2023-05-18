@@ -1,17 +1,17 @@
 import React from "react";
-import { StyleSheet, Text, View,TouchableOpacity, ScrollView } from 'react-native';
-import { NavigationContainer} from "@react-navigation/native";
-import StackContainer from './src/navigation/StackContainer'
+import CNavigation from "./src/navigation/CNavigation";
+import { StatusBar } from "expo-status-bar"; 
+import  {StyleSheet, Text, View} from 'react-native';
+
+
 export default function App()
 {
   return (
-    <NavigationContainer>
-      <StackContainer/>
-    </NavigationContainer>
-
+    <View style={{flex:1}}>
+      <Text>ji</Text>
+      <CNavigation/>
+    </View>
   );
 }
 
-const style = StyleSheet.create({
-
-});
+//const style = StyleSheet.create({});

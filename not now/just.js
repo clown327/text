@@ -1,8 +1,8 @@
 import  React from 'react';
-import { StyleSheet, Text, View,TouchableOpacity, ScrollView } from 'react-native';
+import { StyleSheet, Text, View,TouchableOpacity, ScrollView, Button } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { createStackNavigator, StackNavigationProp } from 'react-navigation-stack';
+import { createStackNavigator} from 'react-navigation-stack';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import { StatusBar } from 'expo-status-bar';
 import button from './src/1button'; //./src/App 컴포넌트 사용
